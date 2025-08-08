@@ -56,7 +56,7 @@ def run_report():
         messagebox.showerror("Error", str(e))
 
 root = tk.Tk()
-root.title("AHP Metrics Reporting Tool")
+root.title("CMS Metrics Reporting Tool by Advance")
 
 frame = tk.Frame(root, padx=10, pady=10)
 frame.pack()

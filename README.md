@@ -1,6 +1,6 @@
-# AHP Reporting Project
+# CMS Reporting Tool
 
-This project provides a Python script and a simple UI to generate reporting metrics for AHP from an Excel file. Users can select the input Excel file and specify the output CSV path. The script processes the data and exports the required metrics as described in the project goal.
+This project provides a Python script and a simple UI to generate reporting metrics for CMS from an Excel file. Users can select the input Excel file and specify the output CSV path. The script processes the data and exports the required metrics as described in the project goal.
 
 ## Features
 - UI to select input Excel and output CSV file paths

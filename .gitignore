@@ -1,0 +1,8 @@
+__pycache__/*
+.github/*
+.vscode/*
+*.csv
+*.xlsx
+Contact_Outcomes.md
+screening_data.txt
+ExpectedOutput.md

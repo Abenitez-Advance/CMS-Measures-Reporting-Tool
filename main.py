@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 
 # Placeholder for metric calculation logic
-from metrics import calculate_all_metrics, RELEVANT_SHEETS
+from metrics import calculate_all_metrics, RELEVANT_SHEETS, DEFAULT_END_DATE, DEFAULT_START_DATE, DEFAULT_EXCEL_PATH, DEFAULT_OUTPUT_PATH
 
 def select_input_file():
     file_path = filedialog.askopenfilename(
@@ -93,9 +93,9 @@ run_button = tk.Button(frame, text="Generate Report", command=run_report, width=
 run_button.grid(row=4, column=0, columnspan=3, pady=10)
 
 # Prefill fields for testing
-input_entry.insert(0, "C:/Users/Admin/Documents/AHPReporting/test_export7_10_25.xlsx")
-output_entry.insert(0, "C:/Users/Admin/Documents/AHPReporting/Output3.csv")
-start_date_entry.insert(0, "2025-01-01")
-end_date_entry.insert(0, "2026-01-01")
+input_entry.insert(0, DEFAULT_EXCEL_PATH)
+output_entry.insert(0, DEFAULT_OUTPUT_PATH)
+start_date_entry.insert(0, DEFAULT_START_DATE)
+end_date_entry.insert(0, DEFAULT_END_DATE)
 
 root.mainloop()

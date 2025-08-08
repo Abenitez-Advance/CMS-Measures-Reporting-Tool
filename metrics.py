@@ -3,6 +3,13 @@ import re
 
 # Settings
 RELEVANT_SHEETS = ["Client", "Ahpscreening", "Goalshortterm", "Ahpdischarge", "Interaction", "Interaction_referral"]
+# Default start date for metrics calculations
+DEFAULT_START_DATE = '2023-01-01'
+# Default end date for metrics calculations
+DEFAULT_END_DATE = '2023-12-31'
+# default path to the Excel file
+DEFAULT_EXCEL_PATH = 'data/metrics_data.xlsx'
+DEFAULT_OUTPUT_PATH = 'data/metrics_output.csv'
 # - Enrollment status values (list):
 ENROLLED_STATUSES = ['Engaged']
 SERVICES_PROVIDED = ["Care Coordination", "Referral to Services", "Education Provided", "Services Provided- Ongoing work with client"] # Define the services that count for Metric #8 and #9
